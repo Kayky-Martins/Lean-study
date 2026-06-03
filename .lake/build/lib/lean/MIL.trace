@@ -1,0 +1,24 @@
+{"log":
+ [{"message":
+   ".> LEAN_PATH=C:\\Users\\Usuario\\EstudosLean\\.lake\\packages\\Cli\\.lake\\build\\lib\\lean;C:\\Users\\Usuario\\EstudosLean\\.lake\\packages\\batteries\\.lake\\build\\lib\\lean;C:\\Users\\Usuario\\EstudosLean\\.lake\\packages\\Qq\\.lake\\build\\lib\\lean;C:\\Users\\Usuario\\EstudosLean\\.lake\\packages\\aesop\\.lake\\build\\lib\\lean;C:\\Users\\Usuario\\EstudosLean\\.lake\\packages\\proofwidgets\\.lake\\build\\lib\\lean;C:\\Users\\Usuario\\EstudosLean\\.lake\\packages\\importGraph\\.lake\\build\\lib\\lean;C:\\Users\\Usuario\\EstudosLean\\.lake\\packages\\LeanSearchClient\\.lake\\build\\lib\\lean;C:\\Users\\Usuario\\EstudosLean\\.lake\\packages\\plausible\\.lake\\build\\lib\\lean;C:\\Users\\Usuario\\EstudosLean\\.lake\\packages\\mathlib\\.lake\\build\\lib\\lean;C:\\Users\\Usuario\\EstudosLean\\.lake\\build\\lib\\lean c:\\Users\\Usuario\\.elan\\toolchains\\leanprover--lean4---v4.21.0\\bin\\lean.exe -Dpp.unicode.fun=true -DautoImplicit=false -DrelaxedAutoImplicit=false C:\\Users\\Usuario\\EstudosLean\\MIL.lean -R C:\\Users\\Usuario\\EstudosLean -o C:\\Users\\Usuario\\EstudosLean\\.lake\\build\\lib\\lean\\MIL.olean -i C:\\Users\\Usuario\\EstudosLean\\.lake\\build\\lib\\lean\\MIL.ilean -c C:\\Users\\Usuario\\EstudosLean\\.lake\\build\\ir\\MIL.c --json",
+   "level": "trace"}],
+ "inputs":
+ [["MIL:deps",
+   [["deps",
+     [["mil/MIL:extraDep", [["@mil:extraDep", "1723"]]],
+      ["import oleans",
+       [["MIL.Common:olean",
+         [["MIL.Common:deps", "13154813862834452579"],
+          ["C:\\Users\\Usuario\\EstudosLean\\.lake\\build\\lib\\lean\\MIL\\Common.olean",
+           "11228746384001682038"]]]]]]],
+    ["libs",
+     [["import dynlibs", "1723"],
+      ["package external libraries", "1723"],
+      ["module dynlibs", "1723"],
+      ["module plugins", "1723"]]]]],
+  ["Lean 4.21.0, commit 6741444a63eec253a7eae7a83f1beb3de015023d",
+   "11123825329739276520"],
+  ["Module.leanArgs: #[-Dpp.unicode.fun=true, -DautoImplicit=false, -DrelaxedAutoImplicit=false]",
+   "13913566189921189602"],
+  ["C:\\Users\\Usuario\\EstudosLean\\MIL.lean", "970232738073740088"]],
+ "depHash": "6163386797271500686"}
