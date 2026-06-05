@@ -207,7 +207,16 @@ theorem questao_add_left_cancel (a b n : ℕ) : n + a = n + b → a = b := by
  exact h
 
 theorem questao_add_left_eq_self (x y : ℕ) : x + y = y → x = 0 := by
- sorry
+ intro h
+ nth_rewrite 2[← zero_add y] at h
+ apply add_right_cancel at h
+ exact h
 
+--**
 theorem quadrado_zero (n : ℕ) : n * n = 0 → n = 0 := by
- sorry
+ intro h
+ cases n with
+  | zero =>
+    rw[mul_zero] at h
+  | succ k =>
+    contradiction
